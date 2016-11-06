@@ -56,23 +56,5 @@ class Drawing extends JPanel {
 		graphics.setColor(Color.BLACK);
 		graphics.drawString("Gun", GUN.x+7, GUN.y+35);
 
-		
-	  
-	  
-	  
-//    int i;
-//    width = getSize().width;
-//    height = getSize().height;
-//
-//    // draw the rows
-//    int rowHt = height / (rows);
-//    for (i = 0; i < rows; i++)
-//      g.drawLine(0, i * rowHt, width, i * rowHt);
-//
-//    // draw the columns
-//    int rowWid = width / (cols);
-//    for (i = 0; i < cols; i++)
-//      g.drawLine(i * rowWid, 0, i * rowWid, height);
-//  }
   }
 }
